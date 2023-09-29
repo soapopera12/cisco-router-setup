@@ -1,0 +1,13 @@
+enable
+config t
+interface gigabitethernet 0/1
+ip address 10.1.1.1 255.255.255.0
+no shutdown
+
+interface gigabitethernet 0/0
+ip address 192.168.1.2 255.255.255.0
+no shutdown
+
+exit 
+ip route 11.1.0.0 255.255.255.0 192.168.1.1
+
