@@ -31,9 +31,13 @@ This practical is part of the course for CSL605  in IIT Bhilai.
 #### configure Putty
 ![Topology image](images/putty.png)
 
-! R1 and R2 files
+#### R1 and R2 files
 [Link to R1](RouterConfig/r1)
+
 [Link to R2](RouterConfig/r2)
+
+Cheetsheet to understand the commands<br>
+https://www.netwrix.com/cisco_commands_cheat_sheet.html
 
 ### Testing 
 you can test the connection using standard ping and traceroute commands
