@@ -1,4 +1,4 @@
-# cisco-router-setup
+# Cisco-Router-Setup
 Network setup and router configuration(Model 2900)
 This practical is part of the course for CSL605  in IIT Bhilai.
 
@@ -14,6 +14,8 @@ This practical is part of the course for CSL605  in IIT Bhilai.
 
 ![Topology image](images/setup.png)
 
+### Distribution of IP across respective interfaces 
+
 | Devices      | IP             | Subnet-mask   |Gateway        |INterfaces     |
 |:------------:|:--------------:|:-------------:|:-------------:|:-------------:|
 | PC1          | 11.1.0.2       | 255.255.0.0   |11.1.0.1       |Ethernet       |   
@@ -28,7 +30,7 @@ This practical is part of the course for CSL605  in IIT Bhilai.
 ![Topology image](images/staticIpAllocation.png)
 
 ### Router configuration(for R1) 
-#### configure Putty
+#### Configure Putty
 ![Topology image](images/putty.png)
 
 #### R1 and R2 files
@@ -42,13 +44,13 @@ https://www.netwrix.com/cisco_commands_cheat_sheet.html
 ### Testing 
 you can test the connection using standard ping and traceroute commands
 
-#### ping test 
+#### Ping test 
 ![Topology image](images/ping.png)
 
-#### traceroute test 
+#### Traceroute test 
 ![Topology image](images/trace.png)
 
-### router configuration check
+### Router configuration check
 You can check router configuration using sh run command for routers
 
 
